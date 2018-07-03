@@ -12,6 +12,6 @@
         android:layout_margin="100dp"
         android:layout_weight="1"
         android:onClick="logIn"
-        android:text="Culorotaso"
+        android:text="nuevo texto"
         android:textColor="@color/colorPrimaryDark" />
 </LinearLayout>
