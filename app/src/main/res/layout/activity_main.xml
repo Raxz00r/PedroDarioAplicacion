@@ -12,6 +12,6 @@
         android:layout_margin="100dp"
         android:layout_weight="1"
         android:onClick="logIn"
-        android:text="Cambio 3"
-        android:textColor="#55cc00" />
+        android:text="Prueba1"
+        android:textColor="@color/colorPrimaryDark" />
 </LinearLayout>
