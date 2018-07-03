@@ -12,6 +12,6 @@
         android:layout_margin="100dp"
         android:layout_weight="1"
         android:onClick="logIn"
-        android:text="Cambio guachin"
-        android:textColor="#55cc00" />
+        android:text="Prueba"
+        android:textColor="@color/colorPrimaryDark" />
 </LinearLayout>
