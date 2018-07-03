@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "962897892625",
+    "firebase_url": "https://pedro-dario-app.firebaseio.com",
+    "project_id": "pedro-dario-app",
+    "storage_bucket": "pedro-dario-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962897892625:android:f097a1088b1bec99",
+        "android_client_info": {
+          "package_name": "com.example.guile.pedrotest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962897892625-mgfiaqkspdqn0i8ai6sigslm7ooh8ujp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW7A_dp0fz286GwjsruPN5T47zqQvPH0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
