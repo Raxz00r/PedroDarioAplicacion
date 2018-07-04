@@ -1,8 +1,8 @@
 package com.example.guile.pedrotest;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -22,31 +22,21 @@ public class MainActivity extends AppCompatActivity {
     FirebaseAuth auth = FirebaseAuth.getInstance();
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-//        if (auth.getCurrentUser() != null) {
-//            // already signed in
-//        } else {
-//            startActivityForResult(
-//                    // Get an instance of AuthUI based on the default app
-//                    AuthUI.getInstance().createSignInIntentBuilder().build(),
-//                    RC_SIGN_IN);
-//        }
-
-
-
 
     }
 
     protected void logIn(View v) {
         startActivityForResult(
                 // Get an instance of AuthUI based on the default app
-                AuthUI.getInstance().createSignInIntentBuilder().build(),
+                AuthUI.getInstance().createSignInIntentBuilder()
+                        .setAvailableProviders(Arrays.asList(
+                                new AuthUI.IdpConfig.GoogleBuilder().build(),
+                                new AuthUI.IdpConfig.EmailBuilder().build()))
+                        .build(),
                 RC_SIGN_IN);
     }
 
